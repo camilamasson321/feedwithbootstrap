@@ -63,7 +63,7 @@
     </nav>
   </div>
 
-  <div class="row bg-white">
+  <div class="row bg-white mb-1">
     <ul class="nav nav-pills justify-content-center mt-2" id="myTab" role="tablist">
       <li class="nav-item pill-1" role="presentation">
         <button class="nav-link active" id="grid-pill" data-bs-toggle="pill" data-bs-target="#home" type="button"
@@ -76,7 +76,7 @@
     </ul>
 
     <!-- Tab panes -->
-    <div class="tab-content row-col-12">
+    <div class="tab-content row-col-12 ps-0 pe-0">
       <div class="tab-pane fade show active mt-2" id="home" role="tabpanel" aria-labelledby="grid-pill">
         <div class="row row-cols-1 row-cols-md-3 g-1" id="grid-pill">
           <div class="col-4">
@@ -135,9 +135,9 @@
           </div>
         </div>
       </div>
-      <div class=" list-posts tab-pane fade row-4 d-flex flex-column align-items-center mt-3" id="profile" role="tabpanel"
+      <div class=" list-posts tab-pane fade row-4" id="profile" role="tabpanel"
         aria-labelledby="list-pill">
-        <div class="card mt-2" style="width: 30%;">
+        <div class="card mt-4 mx-auto" style="width: 30%;">
           <div class="card-body ps-0 pe-0">
             <div class="d-flex justify-content-between ms-2 me-2">
               <h5 class="card-title">Post</h5>
@@ -152,7 +152,7 @@
             <p class="card-text ms-2"><small class="text-muted">Comment</small></p>
           </div>
         </div>
-        <div class="card mt-2" style="width: 30%;">
+        <div class="card mt-2 mx-auto" style="width: 30%;">
           <div class="card-body ps-0 pe-0">
             <div class="d-flex justify-content-between ms-2 me-2">
               <h5 class="card-title">Post</h5>
@@ -167,7 +167,7 @@
             <p class="card-text ms-2"><small class="text-muted">Comment</small></p>
           </div>
         </div>
-        <div class="card mt-2" style="width: 30%;">
+        <div class="card mt-2 mx-auto" style="width: 30%;">
           <div class="card-body ps-0 pe-0">
             <div class="d-flex justify-content-between ms-2 me-2">
               <h5 class="card-title">Post</h5>
@@ -179,7 +179,10 @@
             <p class="card-text ms-2 me-2">This is a wider card with supporting text below as a natural lead-in to
               additional
               content. This content is a little bit longer.</p>
-            <p class="card-text ms-2"><small class="text-muted">Comment</small></p>
+            <div class="d-flex justify-content-between">
+              <p class="card-text ms-2"><small class="text-muted">Comment</small></p>
+              <i class="fa-solid fa-ellipsis-vertical me-2"></i>
+            </div>
           </div>
         </div>
       </div>
