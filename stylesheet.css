@@ -48,3 +48,21 @@ body{
         width: 600px;
         margin: auto;
     }
+ 
+    .nav-pills .pill-1 .nav-link:not(.active) {
+        background-color: white;
+    }
+    
+    .nav-pills .pill-2 .nav-link:not(.active) {
+        background-color: white;
+   }
+   .nav-pills .pill-1 .nav-link {
+    background-color: grey;
+}
+
+.nav-pills .pill-2 .nav-link {
+    background-color: grey;
+}
+.list-posts{
+    background-color: rgb(216, 214, 214);
+}
