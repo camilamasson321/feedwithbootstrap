@@ -1,68 +1,88 @@
-body{
-    background:rgb(219, 214, 214);
+body {
+    background: rgb(219, 214, 214);
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
-    div{
-        box-sizing:border-box;
-    }
-    header{
-        background:white;
-        padding: 10px;
-    }
-    header h1{
-        margin:0;
-    }
-    .post{
-        background: white;
-        margin-top: 10px;
-    }
-    .post img{
-        width:100%;
-        height:auto;
-    }
-    .postheader{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom:solid rgb(230, 227, 227) 0.5px;
-    }
-    .postheader h2{
-        flex-basis:80%;
-    }
-    .postheader span{
-        flex-basis: 20%;
-        text-align: center;
-        padding:10px;
-        color:rgb(201, 197, 197);
-    }
-    .post h2{
-        padding: 10px;
-        margin:0px;
-    }
-    .post p{
-        padding: 10px;
-        border-top: solid rgb(230, 227, 227) 0.5px;
-    }
-    .container{
-        width: 600px;
-        margin: auto;
-    }
- 
-    .nav-pills .pill-1 .nav-link:not(.active) {
-        background-color: white;
-    }
-    
-    .nav-pills .pill-2 .nav-link:not(.active) {
-        background-color: white;
-   }
-   .nav-pills .pill-1 .nav-link {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.insta{
+    font-family: 'Courgette', cursive;
+    color: rgb(106, 104, 104)
+}
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background: white;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.post {
+    background: white;
+    margin-top: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+}
+
+.postheader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid rgb(230, 227, 227) 0.5px;
+}
+
+.postheader h2 {
+    flex-basis: 80%;
+}
+
+.postheader span {
+    flex-basis: 20%;
+    text-align: center;
+    padding: 10px;
+    color: rgb(201, 197, 197);
+}
+
+.post h2 {
+    padding: 10px;
+    margin: 0px;
+}
+
+.post p {
+    padding: 10px;
+    border-top: solid rgb(230, 227, 227) 0.5px;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+}
+
+.nav-pills .pill-1 .nav-link:not(.active) {
+    background-color: white;
+}
+
+.nav-pills .pill-2 .nav-link:not(.active) {
+    background-color: white;
+}
+
+.nav-pills .pill-1 .nav-link {
     background-color: grey;
 }
 
 .nav-pills .pill-2 .nav-link {
     background-color: grey;
 }
-.list-posts{
+
+.list-posts {
+    background-color: rgb(216, 214, 214);
+}
+.tab-content {
     background-color: rgb(216, 214, 214);
 }
